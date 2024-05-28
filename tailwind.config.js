@@ -15,9 +15,11 @@ module.exports = {
       },
     },
     colors: {
-      ...colors,
+
       primary: colors.purple,
-      secondary: colors.pink,
+      secondary: colors.purple,
+      // Replace lightBlue with sky
+
     },
   },
   plugins: [],

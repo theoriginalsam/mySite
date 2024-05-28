@@ -16,19 +16,21 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-800 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Samir Poudel",
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Backend Developer",
                 1000,
                 "UI/UX Designer",
+                1000,
+                "Graphics Designer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Fullstack developer with a creative edge, blending technical expertise with graphic design flair to craft immersive digital experiences.
           </p>
           <div>
             <Link
@@ -65,7 +66,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/images/1212.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
