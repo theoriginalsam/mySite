@@ -5,7 +5,7 @@ const nextConfig = {
   output: 'export',
   // Optionally, add basePath if you're deploying under a subpath
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: '/',
 };
 
 export default nextConfig;
